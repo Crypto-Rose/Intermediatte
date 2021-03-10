@@ -1,0 +1,16 @@
+-Aumentar productividad de Node 
+-Estadisticas
+-Diseño
+1. Mejorar el home *
+2. Conectar el envio multiple a la BD *
+3. Arreglar la actualizacion de peticiones por estado
+3. Verificar si todos los servicios funcionan y guardan en BD correctamente *
+3. Agregar imagen si no hay informacion en las consultas de los servicios *
+4. Borrar los registros despues de una semana en MySQL *
+4. Agregar el perfil del cliente
+5. Agregar el sign de conexion al perfil
+6. Iniciar las estadisticas --Varios
+7. Verificar el Excel tanto importe como exporte
+
+
+Descuento a horas y minutos

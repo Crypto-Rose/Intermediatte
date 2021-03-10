@@ -1,0 +1,242 @@
+/*eslint-disable */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato',sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.formRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formRegister input {
+  width: 300px;
+  height: 60px ;
+  margin: 10px;
+}
+
+h1,h2,h3,h4 {    
+  color:#000;
+}
+
+.login {  
+  
+  margin: 8% 10% 0 !important;
+  box-shadow: 5px 6px 14px #3d3f44;
+  border-radius: 30px;
+  background: #fff;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.title-login {
+  background: #4b6d79;
+  /*background-image: linear-gradient(to bottom right, #5746b5,#a4e2bd );*/
+  padding: 3% !important;
+  color: #fff !important;
+  border-radius: 30px 30px 0px 0px; 
+  text-align: center;
+}
+
+.sub-login{
+  padding: 0% 9% 1%;    
+  color: #000;
+}
+
+.login-button {
+    background-image: linear-gradient(to bottom right,#201948,#648672) !important;
+    color: #fff !important;
+    border: 0 !important;
+    box-shadow: 1px 3px 10px #6f6f6f;
+    font-weight: 500 !important;
+    border-radius: 0 !important;
+}
+
+.twitter,.instagram,.facebook{
+  margin: 0px 20px;
+  font-size: 30px;
+  color: #5746b5;
+}  
+
+.text-pass {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.logo {
+  margin: 12px;
+}
+.div_pagination{
+  width: 80%;
+}
+
+.pagination li {
+  padding: 0px 15px;
+}
+
+.pagination li a {
+  padding: 0px 4px;
+  font-size: 13px;
+}
+
+.pagination li a:hover {
+  border-radius: 25%;
+  border: 1px solid #0c4075;  
+  transition: all 0.5s ease;
+}
+
+.active a{
+  border-radius: 25%;
+  border: 1px solid #0c4075;  
+  transition: all 0.5s ease;
+}
+
+.containerLogin {
+  background-image: url(../../images/Login.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+.jsoneditor {
+  border: thin solid #e8e8e8 !important;
+  border-radius: 10px;
+}
+
+.jsoneditor-menu {
+  background-color: #6181b5 !important;
+  border-radius: 6px 6px 0 0;
+}
+
+.jsoneditor-navigation-bar {
+  background-color: #f5f5f5 !important; 
+}
+
+.example {
+  text-align: center;
+  height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.card-init {  
+  padding: 20px;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.ant-card-bordered {
+  border-radius: 24px;
+  box-shadow: 0px 6px 9px #dedcdc;
+}
+
+.card1 > .ant-card-actions{
+  background: #59e4a8;  
+}
+
+.card1 > .ant-card-actions h5{  
+  color: #fff;
+}
+
+.card2 > .ant-card-actions{
+  background: #ffc801;  
+}
+
+.card2 > .ant-card-actions h5{  
+  color: #fff;
+}
+
+.card3 > .ant-card-actions{
+  background: #ff4f5a;  
+}
+
+.card3 > .ant-card-actions h5{  
+  color: #fff;
+}
+
+.card4 > .ant-card-actions{
+  background: #f68247;  
+}
+
+.card4 > .ant-card-actions h5{  
+  color: #fff;
+}
+
+.servicePrincipal {
+  padding: 24px;
+}
+
+.statusPrincipal {
+  padding: 39px;
+}
+
+.servicePrincipal a,.statusPrincipal a{
+  color:#000;
+  transition: all ease 0.3s
+}
+
+.servicePrincipal a:hover,.statusPrincipal a:hover{
+  color: #378cb5;
+  font-size: 15px;
+}
+
+.iconsPrincipal {
+  font-size: 18px;
+  margin-right: 1%;
+}
+
+.perfil {
+  text-align: center;
+  background: url('../../images/fondo.jpg');
+  background-size: cover;  
+  color: #9FA2B4; 
+  height: 120vh;    
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 4px 7px 10px #0000003b;
+ background-attachment: fixed;
+}
+.dev {
+  background: #ffffffe0;
+  margin-top: 8%;
+  border-radius: 29px;
+  width: 80%;
+  padding: 20px;
+  position: absolute;
+}
+
+
+
