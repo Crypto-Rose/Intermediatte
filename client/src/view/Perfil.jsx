@@ -18,7 +18,6 @@ function Perfil(){
     const [user, setUser] = useState('');
     const [email, setEmail] = useState('');
     const [changeButtonConnection, setChangeButtonConnection] = useState(true)
-    const [loanding, setLoanding] = useState(true)
 
     const back = () => {
         Cookies.remove('session');
